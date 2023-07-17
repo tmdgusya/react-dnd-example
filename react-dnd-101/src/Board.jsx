@@ -5,7 +5,6 @@ import BoardSquare from "./BoardSquare";
 
 
 function renderSquare(i, knightPosition) {
-    console.log("123123", knightPosition)
     const x = i % 8
     const y = Math.floor(i / 8)
     return (
